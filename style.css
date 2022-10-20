@@ -1,0 +1,60 @@
+#header {
+  border: 1px solid red;
+}
+
+* {
+  border: 1px solid green;
+}
+
+#header nav {
+  display: flex;
+  padding: 1em;
+}
+
+.operate-nav {
+  flex: 1;
+  margin-left: 4em;
+}
+
+.operate-nav a,
+.common-nav a {
+  margin: 0 0.8em;
+}
+
+#hero {
+  display: flex;
+  margin-top: 1em;
+}
+
+.banner {
+  flex: 60%;
+  background-color: #efefef;
+}
+
+.promotions {
+  flex: 40%;
+}
+
+.promotions div {
+  text-align: center;
+  padding: 1em;
+}
+
+#testimonials {
+  display: flex;
+}
+
+#features {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+#footer {
+  display: flex;
+}
+
+#footer div {
+  flex: 1;
+  text-align: center;
+}
